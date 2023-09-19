@@ -1,0 +1,174 @@
+.service {
+    padding: 0px 20px;
+}
+.colHireContent h1 {
+    font-size: 39px;
+    margin-bottom: 35px;
+}
+.colHireContent p {
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 30px;
+}
+a.contact.bg-danger {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 35px;
+    margin: 5px 0px;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 1px 9px 0px red;
+}
+.row.engageRow {
+    margin: 90px 0px;
+}
+.col-md-4.mt-4.engage {
+    padding: 20px 25px;
+    /* margin: 0px; */
+}
+.engage h3 {
+    color: orangered;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.engage h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.engage p {
+    font-size: 19px;
+    color: lightseagreen;
+    /* margin-bottom: 24px; */
+}
+a.talkBtn {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    border: 2px solid red;
+    padding: 8px 20px;
+}
+
+.col-md-3.mt-4.dedicatedCard {
+    /* height: 13px; */
+    position: relative;
+    top: 170px;
+    border: 1px solid deepskyblue;
+    border-radius: 15px;
+    padding: 30px 24px;
+    height: 333px;
+    box-shadow: 0px 0px 5px 1px #5f9ea059;
+}
+
+svg.svg-inline--fa.fa-laptop.lapIcon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.dedicatedCard h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.col-md-12.mt-4.multiCard.bg-dark.text-white {
+    border-radius: 12px;
+    padding: 45px 25px;
+}
+svg.svg-inline--fa.fa-box-open.boxIcon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.multiCard h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+svg.svg-inline--fa.fa-building.buildIcon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.row.across.justify-content-evenly {
+    background-color: #4acbb9;
+    color: white;
+    padding: 80px 0px;
+    position: relative;
+    z-index: 1;
+    height: 333px;
+}
+.colAcross1 h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+a.callBtn {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    background: white;
+    padding: 10px 25px;
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+}
+
+.col-md-3.mt-4.colAcross2 {
+    border: 1px solid ghostwhite;
+    border-radius: 10px;
+    padding: 35px 25px;
+    margin: 20px;
+    box-shadow: 0px 0px 7px darkgrey;
+    background-color: white;
+}
+.acrossIcons {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.colAcross2 h2 {
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+.colAcross2 p {
+    font-size: 18px;
+    color: grey;
+}
+.row.across2.justify-content-center {
+    position: relative;
+    z-index: 3;
+    top: -150px;
+    /* opacity: 61%; */
+}
+
+
+.row.across3 {
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    background: #bbdee96b;
+    top: -311px;
+}
+
+@media screen and (max-width:768px) {
+    .service{
+        padding: 0px;
+
+    }
+    .row.engageRow{
+        padding: 0px !important;
+    }
+
+    .col-md-3.mt-4.dedicatedCard{
+        position: static;
+    }
+    .row.across2.justify-content-center {
+        position: static;
+    }
+    .row.across.justify-content-evenly{
+        height: 400px;
+    }
+    .row.across3{
+        position: static;
+    }
+}

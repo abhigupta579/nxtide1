@@ -1,0 +1,58 @@
+.section.bigTech.bg-light {
+    margin: 100px 0px;
+    padding: 80px 0px;
+}
+.col-md-12.colBigTech {
+    margin-bottom: 80px;
+    padding: 35px;
+}
+.colBigTech h1 {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.colBigTech p {
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 30px;
+}
+a.bookCall.bg-danger.rounded.text-white {
+    margin: 10px 400px;
+}
+.col-md-3.bigColBox.rounded {
+    background: white;
+    padding: 22px;
+    border-radius: 14px !important;
+    box-shadow: 1px 1px 11px 0px darkgrey;
+}
+.iconBig {
+    font-size: 35px;
+    color: indianred;
+    margin-bottom: 30px;
+}
+.bigColBox h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.bigColBox p {
+    color: grey;
+}
+
+
+@media screen and (max-width: 1200px) {
+    a.bookCall.bg-danger.rounded.text-white {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .col-md-12.colBigTech {
+        margin-bottom: 80px;
+        padding: 15px;
+    }
+    .col-md-3.bigColBox.rounded{
+        margin-top: 20px;
+    }
+    }
+
+

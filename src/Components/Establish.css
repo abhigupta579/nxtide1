@@ -1,0 +1,40 @@
+.section.establish {
+    background-color: whitesmoke;
+    padding: 80px 0px;
+}
+.EstablishText h1 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.EstablishText p {
+    font-size: 19px;
+    color: darkslategrey;
+    margin-bottom: 30px;
+}
+a.learnBtn {
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.colorRed{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.colorBlue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+
+@media screen and (max-width: 990px) {
+    .image img{
+        width: 100%;
+       
+    }
+}
